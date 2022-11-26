@@ -1,0 +1,25 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "pnpm webpack serve --config=config/webpack.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "html-webpack-plugin": "^5.1.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^4.10.0",
+    "webpack-livereload-plugin": "3.0.2",
+    "style-loader": "^2.0.0",
+    "css-loader": "^5.0.0",
+    "sass-loader": "^10.1.1",
+    "file-loader": "^6.2.0",
+    "node-sass": "^7.0.1",
+    "sass": "^1.32.5"
+  }
+}
