@@ -15,7 +15,7 @@ body {
   padding: 25px;
 }
 
-main {
+.basic {
   display: flex;
   flex: 1;
   text-align: center;
@@ -34,8 +34,8 @@ main {
   position: absolute;
   top: 12px;
   left: 48%;
-  width: 55px;
-  height: 55px;
+  width: 60px;
+  height: 60px;
 }
 
 .icon-button {
@@ -44,17 +44,18 @@ main {
   width: 80px;
   height: 80px;
   top: -50px;
-}
-
-.basic {
-  flex: 0.5;
+  cursor: pointer;
 }
 
 .basic-two {
-  flex: 3;
+  flex: 0.5;
 }
 
 .basic-three {
+  flex: 3;
+}
+
+.basic-four {
   flex: 0.5;
 }
 
@@ -63,6 +64,137 @@ main {
   text-decoration: underline;
 }
 
+
+
+
+
+
+
 .hidden {
   display: none;
+}
+
+.flax-container-two {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-two {
+    position: relative;
+    padding: 30px;
+}
+
+.but {
+    color: cornflowerblue;
+    cursor: pointer;
+    border: none;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    font-stretch: 120%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    position: absolute;
+    height: 60px;
+    left: 2px;
+    top: 2px;
+}
+
+.butt {
+    color: cornflowerblue;
+    cursor: pointer;
+    border: none;
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: 120%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    top: 2px;
+}
+
+
+
+
+
+
+
+.basic-page-create {
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ 
+.icon-loading-two {
+    display: block;
+    flex: 0.1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+}
+
+.basic-page-creat-two {
+    flex: 0.3;
+}
+
+.basic-page-creat-three {
+    flex: 0.3;
+}
+
+.basic-page-creat-four {
+    flex: 0.3;
+}
+
+input {
+    font-size: 20px;
+    height: 60px;
+    width: 700px;
+    border-radius: 15px;
+    border: 2px solid cornflowerblue;
+    text-align: center;
+}
+
+
+
+
+
+
+.basement-two {
+    padding: 100px;
+}
+
+.basment-but-two {
+    position: relative;
+    color: white;
+    background: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    left: 30%;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
+}
+
+    .basment-but-thre {
+    position: relative;
+    color: white;
+    background: red;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    border: none;
+    font-size: 30px;
+    left: 50%;
+    border-radius: 40px;
+    width: 150px;
+    height: 60px;
 }
