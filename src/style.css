@@ -49,6 +49,7 @@ body {
 
 .basic-two {
   flex: 0.5;
+  
 }
 
 .basic-three {
@@ -64,9 +65,25 @@ body {
   text-decoration: underline;
 }
 
+.date-task-one {
+    border: 6px solid lightgrey;
+    background-color: lightgrey;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
+.title-date-task {
+    word-spacing: 400px;
+}
 
-
+#tasks {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--darkest);
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
 
 
 
@@ -85,7 +102,7 @@ body {
     padding: 30px;
 }
 
-.but {
+#but {
     color: cornflowerblue;
     cursor: pointer;
     border: none;
@@ -185,7 +202,7 @@ input {
     height: 60px;
 }
 
-    .basment-but-thre {
+.basment-but-thre {
     position: relative;
     color: white;
     background: red;

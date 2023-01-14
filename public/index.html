@@ -22,9 +22,22 @@
                         <span><strong>Todos</strong></span>
                     </div>
                 </section>
-                <section class="basic-three">Date Task</section>
-                <section class="basic-four">Load more</section>
+
+                <section class="basic-three">
+                    <form action="" class="date-task-one">
+                        <h2 class="title-date-task">Date Task</h2>
+                    </form>
+                    <div id="tasks"></div>
+
+                    <div class="wrapper">
+                        <ul class="todo"></ul>
+                    </div>
+                </section>
+                <section class="basic-four">
+                    <h3>Load more</h3>
+                </section>
             </main>
+
             <footer class="basement">
                 <a id="go-to-create"><img class="icon-button" src="./img/Плюс.png" alt="Plus" /></a>
             </footer>
@@ -35,27 +48,30 @@
     <div id="page-create" class="page-create hidden">
         <div class="flax-container-two">
             <header class="header-two">
-                <button class="but">add task</button>
+                <button id="but">add task</button>
                 <button id="create-close-button" class="butt">X</button>
             </header>
             <main class="basic-page-create">
                 <img class="icon-loading-two" src="./img/Загрузка.png" alt="loading" />
-                <div class="basic-page-creat-two">
-                    <h2>Title</h2>
-                    <input type="Enter task title" placeholder="Enter task title">
-                </div>
-                <div class="basic-page-creat-three">
-                    <h2>Discription</h2>
-                    <input type="Enter task desriprion" placeholder="Enter task description">
-                </div>
-                <div class="basic-page-creat-four">
-                    <h2>Dare end</h2>
-                    <input type="Click here to choose date" placeholder="Your name Click her to choose date">
+                <div id="new-task-form">
+                    <div class="basic-page-creat-two">
+                        <h2>Title</h2>
+                        <input type="Enter task title" placeholder="Enter task title" class="title">
+                    </div>
+                    <div class="basic-page-creat-three">
+                        <h2>Discription</h2>
+                        <input type="Enter task desriprion" placeholder="Enter task description" class="discription">
+                    </div>
+                    <div class="basic-page-creat-four">
+                        <h2>Dare end</h2>
+                        <input type="Click here to choose date" placeholder="Your name Click her to choose date"
+                            class="dare-end">
+                    </div>
                 </div>
             </main>
             <footer class="basement-two">
                 <div>
-                    <button class="basment-but-two">Add</button>
+                    <button id="add-page" class="basment-but-two">Add</button>
                     <button class="basment-but-thre">Cancel</button>
                 </div>
             </footer>
