@@ -1,5 +1,5 @@
-let addMessage = document.querySelector('.title');
-let addButton = document.querySelector('#but');
+let addMessage = document.querySelector('input');
+let addButton = document.querySelector('#add-page');
 let todo = document.querySelector('.todo');
 
 let todoList = [];
@@ -29,6 +29,7 @@ function displayMessages() {
         <li>
             <input type='checkbox' id='item_${i}' ${item.checked ? 'checked' : ''}>
             <label for='item_${i}' class="${item.important ? 'important' : ''}">${item.todo}</label>
+            
         </li>
         `;
         todo.innerHTML = displayMessage;
@@ -49,6 +50,8 @@ todo.addEventListener('change', function (event) {
     });
 
 });
+
+
 
 
 
