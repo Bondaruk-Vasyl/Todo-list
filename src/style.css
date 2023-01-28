@@ -60,9 +60,29 @@ body {
   flex: 0.5;
 }
 
+.view-all {
+    color: cornflowerblue;
+    cursor: pointer;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    font-stretch: 120%;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    height: 60px;
+    position: absolute;
+    right: 20px;
+    top: 11%;
+}
+
 .header-count {
-  margin: 40px;
+  top: 11%;
+  left: 20px;
+  font-family: Arial, Helvetica, sans-serif;
   text-decoration: underline;
+  position: absolute;
+  font-size: 20px;
 }
 
 .date-task-one {
@@ -86,17 +106,10 @@ body {
     
 }
 
-li {
-  justify-content: space-between;
-  background-color: var(--darkest);
-  background-color:  lightgray;
-  padding: 1rem;
-  border-radius: 1rem;
-  margin-bottom: 1rem;
-}
+
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 .flax-container-two {
@@ -144,13 +157,6 @@ li {
     right: 20px;
     top: 2px;
 }
-
-
-
-
-
-
-
 .basic-page-create {
     display: flex;
     flex: 1;
@@ -187,11 +193,6 @@ input {
     border: 2px solid cornflowerblue;
     text-align: center;
 }
-
-
-
-
-
 
 .basement-two {
     padding: 100px;
