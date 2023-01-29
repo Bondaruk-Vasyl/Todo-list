@@ -29,13 +29,13 @@ function displayMessages() {
         <li>
             <input type='checkbox' id='item_${i}' ${item.checked ? 'checked' : ''}>
             <label for='item_${i}' class="${item.important ? 'important' : ''}">${item.todo}</label>
-            
         </li>
         `;
         todo.innerHTML = displayMessage;
     });
 
 }
+
 
 todo.addEventListener('change', function (event) {
     let idInput = event.target.getAttribute('id');
@@ -50,6 +50,30 @@ todo.addEventListener('change', function (event) {
     });
 
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
