@@ -188,10 +188,13 @@ ul {
     margin-left: -40px;
 }
 
+
+
 input[type="checkbox"]{
    right: 30%;
    position: relative;
 }
+
 
 
 li{
@@ -203,15 +206,14 @@ li{
         
 }
 
-.discription {
-    
-    font-family: Arial, Helvetica, sans-serif;
+.discription{
     font-size: 20px;
     height: 60px;
     width: 700px;
     border-radius: 15px;
     border: 2px solid cornflowerblue;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input {

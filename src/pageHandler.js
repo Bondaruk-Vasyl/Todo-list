@@ -17,6 +17,8 @@ export const showPage = page => {
   Object.values(otherPages).forEach(page => page.classList.add('hidden'));
 };
 
+
+
 // showPage('pageCreate')
 // pageCreate: 'visible',
 // pageList: 'hidden',
