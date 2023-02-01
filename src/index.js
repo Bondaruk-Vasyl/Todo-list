@@ -19,6 +19,11 @@ const UI = {
 
 let todoList = [];
 
+// function createDeleteElements(value) {
+
+//     const btn =
+
+// }
 
 const addNewTodoItem = item => {
     todoList.push(item);
